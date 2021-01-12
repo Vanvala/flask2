@@ -15,10 +15,14 @@
    <p class="h5 my-0 me-md-auto fw-normal">Vanvala</p>
      <nav class="my-2 my-md-0 me-md-3">
     <a class="p-2 text-dark" href="/">Главная</a>
-    <a class="p-2 text-dark" href="/about">Про нас</a>
+    <a class="p-2 text-dark" href="/about">О нас</a>
+
+    <a class="btn btn-warning" href="/create-article">Создать</a>
+
      </nav>
   </header>
-    <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+{% block body %} {% endblock %}
+  <footer class="container pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
         <img class="mb-2" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
@@ -56,6 +60,8 @@
     </div>
   </footer>
 
-{% block body %} {% endblock %}
+
+
+
 </body>
 </html>
